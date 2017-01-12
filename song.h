@@ -98,38 +98,52 @@ int melody[] = {
   NC6, 0, 0, 0, 0, 0, NAS5, 0, 0, 0, 0, 0, NA5, 0, 0, 0, 0, 0, NF5, 0, 0, 0, NG5, 0, NA5, 0, NG5, 0, NF5, 0, NC5, 0, NCS5, 0, NF5, 0, 0, 0, NC6, 0, 0, 0, NAS5, 0, 0, 0, NCS5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NC5, 0,
   NC6, 0, 0, 0, 0, 0, NAS5, 0, 0, 0, 0, 0, NA5, 0, 0, 0, 0, 0, NF5, 0, 0, 0, NG5, 0, NA5, 0, NG5, 0, NF5, 0, NC5, 0, NCS5, 0, NF5, 0, 0, 0, NC6, 0, 0, 0, NAS5, 0, 0, 0, NCS6, 0, 0, 0, NC6, 0, 0, 0, NAS5, 0, 0, 0, NF5, 0, NG5, 0, NAS5, 0,
   NC6, 0, 0, 0, 0, 0, NAS5, 0, 0, 0, 0, 0, NA5, 0, 0, 0, 0, 0, NF5, 0, 0, 0, NG5, 0, NA5, 0, NG5, 0, NF5, 0, NC5, 0, NCS5, 0, NF5, 0, 0, 0, NC6, 0, 0, 0, NAS5, 0, 0, 0, NCS5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NC5, 0,
-  NC6, 0, 0, 0, 0, 0, NAS5, 0, 0, 0, 0, 0, NA5, 0, 0, 0, 0, 0, NF5, 0, 0, 0, NG5, 0, NA5, 0, NG5, 0, NF5, 0, NC5, 0, NCS5, 0, NF5, 0, 0, 0, NC6, 0, 0, 0, NAS5, 0, 0, 0, NGS5, 0, NGS5, 0, NGS5, 0, NGS5, 0, NGS5, 0, NG5, 0, NG5, 0, NG5, 0, NG5, 0
-
-  NC6, 0, 0, 0, 0, 0, NAS5, 0, 0, 0, 0, 0, NA5, 0, 0, 0, 0, 0, NF5, 0, 0, 0, NG5, 0, NA5, 0, NG5, 0, NF5, 0, NC5, 0, NCS5, 0, NF5, 0, 0, 0, NC6, 0, 0, 0, NAS5, 0, 0, 0, NCS5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NC5, 0,
-  NC6, 0, 0, 0, 0, 0, NAS5, 0, 0, 0, 0, 0, NA5, 0, 0, 0, 0, 0, NF5, 0, 0, 0, NG5, 0, NA5, 0, NG5, 0, NF5, 0, NC5, 0, NCS5, 0, NF5, 0, 0, 0, NC6, 0, 0, 0, NAS5, 0, 0, 0, NCS6, 0, 0, 0, NC6, 0, 0, 0, NAS5, 0, 0, 0, NF5, 0, NG5, 0, NAS5, 0,
-  NC6, 0, 0, 0, 0, 0, NAS5, 0, 0, 0, 0, 0, NA5, 0, 0, 0, 0, 0, NF5, 0, 0, 0, NG5, 0, NA5, 0, NG5, 0, NF5, 0, NC5, 0, NCS5, 0, NF5, 0, 0, 0, NC6, 0, 0, 0, NAS5, 0, 0, 0, NCS5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NC5, 0,
-  NC6, 0, 0, 0, 0, 0, NAS5, 0, 0, 0, 0, 0, NA5, 0, 0, 0, 0, 0, NF5, 0, 0, 0, NG5, 0, NA5, 0, NG5, 0, NF5, 0, NC5, 0, NCS5, 0, NF5, 0, 0, 0, NC6, 0, 0, 0, NAS5, 0, 0, 0, NGS5, 0, NGS5, 0, NGS5, 0, NGS5, 0, NGS5, 0, NG5, 0, NG5, 0, NG5, 0, NG5, 0
-
-  NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, 
-  NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NF6, NF6, NF6, NF6, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NCS5, NCS5, NCS5, NCS5, NCS5, NCS5, NCS5, NCS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NGS5, NGS5, NGS5, NGS5, NGS5, NGS5, NGS5, NGS5, 
-  NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, 
-  NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NF6, NF6, NF6, NF6, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NCS5, NCS5, NCS5, NCS5, NCS5, NCS5, NCS5, NCS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NGS5, NGS5, NGS5, NGS5, NGS5, NGS5, NGS5, NGS5, 
-
-  NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, 
-  NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NF6, NF6, NF6, NF6, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NCS5, NCS5, NCS5, NCS5, NCS5, NCS5, NCS5, NCS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NGS5, NGS5, NGS5, NGS5, NGS5, NGS5, NGS5, NGS5, 
-  NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, NAS5, 
-  NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NA5, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NC6, NF6, NF6, NF6, NF6, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NCS5, NCS5, NCS5, NCS5, NCS5, NCS5, NCS5, NCS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NDS5, NGS5, NGS5, NGS5, NGS5, NGS5, NGS5, NGS5, NGS5, 
-
+  NC6, 0, 0, 0, 0, 0, NAS5, 0, 0, 0, 0, 0, NA5, 0, 0, 0, 0, 0, NF5, 0, 0, 0, NG5, 0, NA5, 0, NG5, 0, NF5, 0, NC5, 0, NCS5, 0, NF5, 0, 0, 0, NC6, 0, 0, 0, NAS5, 0, 0, 0, NGS5, 0, NGS5, 0, NGS5, 0, NGS5, 0, NGS5, 0, NG5, 0, NG5, 0, NG5, 0, NG5, 0,
+  
+  NA5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NC6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NAS5, 0, 0, 0, 0, 0, 0, 0, NG5, 0, 0, 0, 0, 0, 0, 0, NGS5, 0, 0, 0, 0, 0, 0, 0, NAS5, 0, 0, 0, 0, 0, 0, 0, 
+  NA5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NC6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NF6, 0, 0, 0, NDS6, 0, 0, 0, 0, 0, 0, 0, NCS6, 0, 0, 0, 0, 0, 0, 0, NDS6, 0, 0, 0, 0, 0, 0, 0, NG6, 0, 0, 0, 0, 0, 0, 0, 
+  NA5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NC6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NAS5, 0, 0, 0, 0, 0, 0, 0, NG5, 0, 0, 0, 0, 0, 0, 0, NGS5, 0, 0, 0, 0, 0, 0, 0, NAS5, 0, 0, 0, 0, 0, 0, 0, 
+  NA5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NC6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NF6, 0, 0, 0, NDS6, 0, 0, 0, 0, 0, 0, 0, NCS6, 0, 0, 0, 0, 0, 0, 0, NDS6, 0, 0, 0, 0, 0, 0, 0, NG6, 0, 0, 0, 0, 0, 0, 0, 
 };
 
-int countermelody[] = {
-  
-  };
 
-
-void playNote(uint8_t number)
+void playNote(uint16_t number)
 {
-  noTone(SPEAKERPIN);
-  tone(SPEAKERPIN, melody[number], 100);
+  if(number < 256)
+  {
+    tone(SPEAKERPIN, melody[number], 80);
+  }
+  if(number >= 256 && number < 512)
+  {
+    tone(SPEAKERPIN, melody[number - 256], 80);
+  }
+  if(number >= 512 && number < 768)
+  {
+    tone(SPEAKERPIN, melody[number - 256], 80);
+  }
+  if(number >= 768 && number < 1024)
+  {
+    tone(SPEAKERPIN, melody[number - 512], 80);
+  }
 }
 
 void playNoteDown(uint8_t number)
 {
-  tone(SPEAKERPIN, melody[number] / 2, 60);
+  if(number < 256)
+  {
+    tone(SPEAKERPIN, melody[number] / 2, 80);
+  }
+  if(number >= 256 && number < 512)
+  {
+    tone(SPEAKERPIN, melody[number - 256] / 2, 80);
+  }
+  if(number >= 512 && number < 768)
+  {
+    tone(SPEAKERPIN, melody[number - 256] / 2, 80);
+  }
+  if(number >= 768 && number < 1024)
+  {
+    tone(SPEAKERPIN, melody[number - 512] / 2, 80);
+  }
 }
 

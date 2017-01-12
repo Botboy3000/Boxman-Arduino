@@ -151,20 +151,11 @@ void loop() {
     noteCounter++;
     if(noteCounter == 2)
     {
-      if(melody[note - 1] != 0)
-      {
         playNote(note - 1);
-      }
     }
     if(noteCounter > 6)
     {
-      if(melody[note] != 0)
-      {
-        if(note < 512)
-        {
-          playNoteDown(note);
-        }
-      }
+      playNoteDown(note);
       note++;
       noteCounter = 0;
     }
@@ -310,6 +301,8 @@ void gameFrame()
       tft.setTextColor(RED);
       tft.setCursor(1, 9);
       tft.println("Game Over");
+      tone(4, 200, 10);
+      delay(5);
       tone(4, 50, 100);
       delay(2000);
       resetGameVariables();
