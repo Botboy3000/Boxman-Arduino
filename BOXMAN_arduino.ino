@@ -2,7 +2,7 @@
  * [][]    [][][]  []  []  [][][]    []    [][][]
  * [][][]  []  []    []    [][][]  [][][]  []  []
  * [][][]  [][][]  []  []  []  []  []  []  []  []
- *         By Nathan "Botboy3000" Paskach
+ *         By Botboy3000
 */
 
 #include <Adafruit_GFX.h>    // Core graphics library
