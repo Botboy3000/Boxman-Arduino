@@ -2,7 +2,7 @@
  * [][]    [][][]  []  []  [][][]    []    [][][]
  * [][][]  []  []    []    [][][]  [][][]  []  []
  * [][][]  [][][]  []  []  []  []  []  []  []  []
- *         By Botboy3000
+ *         By Nathan "Botboy3000" Paskach
 */
 
 #include <Adafruit_GFX.h>    // Core graphics library
@@ -160,7 +160,7 @@ void loop() {
       noteCounter = 0;
     }
 
-    if(note > 1024)
+    if(note > 1023)
     {
       note = 0;
     }
